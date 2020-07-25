@@ -1,11 +1,11 @@
 def bubble(list):
-    iteration_lenght = len(list) - 1
+    iteration_length = len(list) - 1
     sorted = False
 
     # Logic
     while not sorted:
         sorted = True
-        for i in range(0, iteration_lenght):
+        for i in range(0, iteration_length):
             if list[i] > list[i+1]:
                 sorted = False
                 list[i], list[i+1] = list[i+1], list[i]
